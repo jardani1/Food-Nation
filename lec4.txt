@@ -1,0 +1,16 @@
+1-> props aare just arguments passed to functinal componwnt which is just a js function or properties passed
+
+2-> when you have to dynamicaly pass in some data you pass it as props
+
+3> you can pass any no of data as props react will just wrap in jsobject
+
+
+<h4><i class="fa-solid fa-star"></i>{restaurantList.data.avgRating}</h4>
+          <h4>{lastMileTravelString}</h4>
+          <h4>{costForTwoString}</h4>
+
+
+
+
+
+
