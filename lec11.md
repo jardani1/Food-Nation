@@ -1,6 +1,6 @@
 # Higher order component
 
-  // its is a compoent which takes a compoent as a aargument and returns a new component
+  // its is a compoent which takes a compoent as a argument and returns a new component
 
   // its contract - input - component ==> new component
 
@@ -24,9 +24,9 @@
 
 
 # see there a cotrolled components and uncontrolled components
-- when a component which is supposed to do some taks and it has its own varable then the component can update the state by its on data changes
+- when a component which is supposed to do some taks and it has its own variable then the component can update the state by its on data changes
   and that is why it is caled uncontrolled component like the xample of the Resturaant category it is responsible ofr showing thw category and 
-  and passing the props to the item list so thet from there the Resturant caterogy like recomended the iteems in side recomemnede can be showm 
+  and passing the props to the item list so that from there the Resturant caterogy like recomended the items inside recomemnede can be showm 
   here:- 
 
   const ResturantCategory = (alpha) => {
@@ -128,4 +128,4 @@ app like this-
 //End of lec
 
 
-IMP the next lec is the complex one start that by the notes
+//IMP the next lec is the complex one start that by the notes

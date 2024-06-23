@@ -14,7 +14,7 @@ const RestaurantCard = (props) => {
     
     // console.log(cloudinaryImageId);
     return (
-      <div className="m-4 p-4 w-[200px]  bg-gray-100 rounded-lg hover:bg-gray-200">
+      <div  data-testid="resCard" className="m-4 p-4 w-[200px]  bg-gray-100 rounded-lg hover:bg-gray-200 shadow-md">
         <img className = "rounded-lg w-44 h-44" src={CDN_URL + cloudinaryImageId}/>
         <h2 className="font-bold py-4 text-lg">{name}</h2>
         <h4>{cuisines.join(", ")}</h4>
@@ -36,18 +36,18 @@ const RestaurantCard = (props) => {
   // its contract - input - component ==> new component
   
   
-  const withPromotedlabel=(RestaurantCard)=>{
+  // const withPromotedlabel=(RestaurantCard)=>{
     
     
     
-    return(props)=> {          // here we are retuning a arrow function which returns some piece of jsx
-      return(
-            <div>
-              <label>Promoted</label>
-              <RestaurantCard {...props}/>
-            </div>
-      );
-     };
-  };
+  //   return(props)=> {          // here we are retuning a arrow function which returns some piece of jsx
+  //     return(
+  //           <div>
+  //             <label>Promoted</label>
+  //             <RestaurantCard {...props}/>
+  //           </div>
+  //     );
+  //    };
+  // };
 
   export default RestaurantCard;

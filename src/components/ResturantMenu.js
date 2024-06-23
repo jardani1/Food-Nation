@@ -108,8 +108,8 @@ const ResturantMenu = () => {
              key = {category?.card?.card?.title }
              alpha={category?.card?.card}
              showItems= {index===showIndex?true:false} // here you might think how show item updates on its value as it is not a state var see notes for that 
-             showVerify = {()=>setshowIndex(null)}
              setshowIndex = {()=>setshowIndex(index)}
+             showVerify = {()=>setshowIndex(null)}
              /> )) 
                       }    
                       

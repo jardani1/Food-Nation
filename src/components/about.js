@@ -30,7 +30,7 @@ class About extends Component {
     const {name, location, avatar_url} = this.state.userInfo;
     return (
       <div>
-        <img src={avatar_url} />
+        <img className ="w-10" src={avatar_url} />
         <h1>About</h1>
         <div>
           logged user
@@ -38,8 +38,8 @@ class About extends Component {
             {({LoggedInUser})=><h1 className="font-bold text-xl">{LoggedInUser}</h1>}
           </UserContext.Consumer>
         </div>
-        <h2>This is namaste React Web series</h2>
-        <h3>The Sumukh Shrivastav will work on the project</h3>
+        {/* <h2>This is namaste React Web series</h2>
+        <h3>The Sumukh Shrivastav will work on the project</h3> */}
 
         {/* <User name = {"Sumukh"} location = {"dehradun"} contact ={"Yahoo.com"}/> */}
         <UserClass name={name} location={location} />

@@ -1,7 +1,7 @@
 import React, { Suspense, lazy, useContext, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Body from "./src/components/Body";
-import Header from "./src/components/header";
+import Header from "./src/components/Header";
 import Footer from "./src/components/Footer";
 import About from "./src/components/about";
 import Contact from "./src/components/contact";
@@ -12,6 +12,7 @@ import { useState } from "react";
 import UserContext from "./src/utils/UserContext";
 import { Provider } from "react-redux";
 import appStore from  "./src/utils/appStore"
+import Cart from "./src/components/Cart";
 
 // import Grocery from "./src/components/Grocery";   but we will not import iy like  we will use lazy import
 
@@ -22,8 +23,9 @@ const Grocery = lazy(() => import("./src/components/Grocery"));         // used 
 
 
 const AppLayout = () => {
-  const [userName, setuserName] = useState();
 
+
+  const [userName, setuserName] = useState();
   // authenticaton logic
 
   useEffect(() => {
@@ -34,11 +36,7 @@ const AppLayout = () => {
     setuserName(data.name);
   }, [])
 
-
   return (
-
-
-
     // in this context provider i have grouped my whole app every where value of user name is updated like this if we would have groped only header then the in thder only it works username - updates
     // the sore is provided to the whole app
     <Provider store={appStore} >
@@ -49,7 +47,7 @@ const AppLayout = () => {
           <Header />
           {/* </UserContext.Provider> */}
           <Outlet />
-          <Footer />
+          <Footer /> 
         </React.Fragment>
       </UserContext.Provider>
     </Provider>
@@ -80,7 +78,10 @@ const approuter = createBrowserRouter([
       {
       path : "/resturants/:Resid",
       element : <ResturantMenu/>
-
+      },
+      {
+        path: "/cart",
+        element : <Cart/>
       }
     ],
     errorElement: <Error />,

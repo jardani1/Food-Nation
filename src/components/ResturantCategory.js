@@ -17,6 +17,18 @@ const ResturantCategory = ({alpha,showItems,setshowIndex,showVerify}) => {
         }
     };
 
+    // more accurate way
+    // const handleClick = () => {
+    //     if (showItems === true) {
+    //         showVerify(); // Sets showIndex to null
+    //         setTimeout(() => {
+    //             setShowIndex(index); // Updates showIndex to new index after showVerify is complete
+    //         }, 0);
+    //     } else {
+    //         setShowIndex(index); // Directly updates showIndex to new index if not shown
+    //     }
+    // };
+
     return (
 
         <div className="w-6/12 mx-auto my-4 bg-gray-100 p-4 shadow-lg ">

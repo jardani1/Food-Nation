@@ -16,7 +16,7 @@ const Header = () => {
 
   // suscribing the store using the selector for that we use use selector hook
   const cartItems = useSelector((store)=>store.cart.items);
-  // console.log(cartItems)
+  console.log(cartItems)
 
 
   return (
@@ -47,11 +47,14 @@ const Header = () => {
           <li className="px-4">
             <Link to="/Grocery">Grocery</Link>
           </li>
-          <li className="px-4 font-bold text-xl">Cart({cartItems.length})</li>
-          <button className="button1" onClick={() => { btnName === "login" ? SetbtnName("logout") : SetbtnName("login") }}>{btnName}
+          <li className="ppx-4 font-bold text-xlx-4">
+            <Link to="/cart">Cart({cartItems.length})-items</Link>
+          </li>
+      
+          {/* <button className="button1" onClick={() => { btnName === "login" ? SetbtnName("logout") : SetbtnName("login") }}>{btnName}
           
           </button>
-          <li className="px-4 font-bold">User : {LoggedInUser}</li>
+           <li className="px-4 font-bold">User : {LoggedInUser}</li> */}
 
 
         </ul>
