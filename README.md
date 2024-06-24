@@ -1,4 +1,4 @@
-# MasterChef
+# Food-Nation
 
 This is a fascinating project – a clone of the Swiggy website using the power duo of React.js and Tailwind CSS, with thorough testing using Jest, and real-time data from the Swiggy live API. 🍔🛵
 
@@ -7,6 +7,10 @@ This is a fascinating project – a clone of the Swiggy website using the power 
 🌐 Replicating Swiggy: We meticulously recreated the user interface and functionalities of Swiggy, with real-time data from their live API, ensuring an authentic user experience.
 
 ⚙️ React.js Magic: Leveraging the flexibility and reactivity of React.js, we ensured a seamless and responsive user experience, all while handling live data updates.
+
+🍭 Fully functional Search functionality with Enter key press to search logic it just works smoothly and filters out the restaurants in a case-insensitive manner🔥
+
+🍭 Harnessed the powers of react-router-dom for smooth routing using Link and not traditional anchor tag to avoid default behaviors.
 
 💅 Tailwind CSS Styling: Tailwind CSS helped us keep the styling process smooth and efficient, with its utility-first approach and responsive design.
 
