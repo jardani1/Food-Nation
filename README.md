@@ -19,3 +19,9 @@ This is a fascinating project – a clone of the Swiggy website using the power 
 💡 Learning Experience: Building this clone was not only a great technical challenge but also a fantastic opportunity for learning about working with live APIs and understanding how a platform like Swiggy operates.
 
 #ReactJS #TailwindCSS #Jest #SwiggyAPI #WebDevelopment #SwiggyClone #TechProject
+
+# Images:
+
+![1](https://github.com/jardani1/Food-Delivery-Application/blob/main/src/Screenshot%202024-06-24%20234426.pngsrc/Screenshot 2024-06-24 234426.png)
+
+![3]([https://github.com/SankalpHaritash21/MasterChef/assets/110713125/e10f8ef6-48d6-4bd5-bed6-134332775dae](https://github.com/jardani1/Food-Delivery-Application/blob/main/src/Screenshot%202024-06-24%20234525.png))
