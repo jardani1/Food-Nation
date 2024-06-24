@@ -22,6 +22,6 @@ This is a fascinating project – a clone of the Swiggy website using the power 
 
 # Images:
 
-![1](https://github.com/jardani1/Food-Delivery-Application/blob/main/src/Screenshot%202024-06-24%20234426.pngsrc/Screenshot 2024-06-24 234426.png)
+![1](https://github.com/jardani1/Food-Delivery-Application/blob/main/src/Screenshot%202024-06-24%20234426.png?raw=true)
 
-![3]([https://github.com/SankalpHaritash21/MasterChef/assets/110713125/e10f8ef6-48d6-4bd5-bed6-134332775dae](https://github.com/jardani1/Food-Delivery-Application/blob/main/src/Screenshot%202024-06-24%20234525.png))
+![2]()
