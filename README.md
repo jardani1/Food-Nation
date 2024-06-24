@@ -24,4 +24,4 @@ This is a fascinating project – a clone of the Swiggy website using the power 
 
 ![1](https://github.com/jardani1/Food-Delivery-Application/blob/main/src/Screenshot%202024-06-24%20234426.png?raw=true)
 
-![2]()
+![2](https://github.com/jardani1/Food-Delivery-Application/blob/main/src/Screenshot%202024-06-24%20234525.png?raw=true)
