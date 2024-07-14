@@ -8,6 +8,8 @@ This is a fascinating project – a clone of the Swiggy website using the power 
 
 ⚙️ React.js Magic: Leveraging the flexibility and reactivity of React.js, we ensured a seamless and responsive user experience, all while handling live data updates.
 
+⚙️ Redux Toolkit is used to create a store where anitem is added in cart by dispatching an action and then the cart is also displayed you can click on the top right corner.
+
 🍭 Fully functional Search functionality with Enter key press to search logic it just works smoothly and filters out the restaurants in a case-insensitive manner🔥
 
 🍭 Harnessed the powers of react-router-dom for smooth routing using Link and not traditional anchor tag to avoid default behaviors.
