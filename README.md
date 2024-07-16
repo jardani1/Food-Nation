@@ -1,7 +1,7 @@
 # Food-Nation
 
 This is a fascinating project – a clone of the Swiggy website using the power duo of React.js and Tailwind CSS, with thorough testing using Jest, and real-time data from the Swiggy live API. 🍔🛵
-
+![1](https://github.com/jardani1/Food-Delivery-Application/blob/main/src/Screenshot%202024-06-24%20234426.png?raw=true)
 # Technology Stack:
 
 🌐 Replicating Swiggy: We meticulously recreated the user interface and functionalities of Swiggy, with real-time data from their live API, ensuring an authentic user experience.
